@@ -1,0 +1,9 @@
+repositories:
+  /autoware/src/external:
+    type: git
+    url: https://github.com/sethut1224/ichthus_external.git
+    version: master
+  /autoware/src/universe/autoware.universe
+    type: git
+    url: https://github.com/sethut1224/autoware.universe.git
+    version: main

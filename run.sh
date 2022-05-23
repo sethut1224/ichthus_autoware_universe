@@ -13,13 +13,15 @@ VOLUMES="--volume=$XSOCK:$XSOCK:ro
 	 --volume=/tmp/.X11-unix:/tmp/.X11-unix:ro"
 	 
 ENVIRONS="--env DISPLAY=${DISPLAY}
-	  --env NVIDIA_VISIBLE_DEVICES=all"
+	  --env NVIDIA_VISIBLE_DEVICES=all
+	  --env NVIDIA_DRIVER_CAPABILITIES=all"
 
 docker run \
 	-it\
+	--rm \
 	--runtime=nvidia \
-	$VOLUMES \
 	$ENVIRONS \
+	$VOLUMES \
 	--privileged \
 	--net=host \
 	$RUNTIME \

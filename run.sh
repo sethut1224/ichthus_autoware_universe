@@ -18,7 +18,6 @@ ENVIRONS="--env DISPLAY=${DISPLAY}
 
 docker run \
 	-it\
-	--rm \
 	--runtime=nvidia \
 	$ENVIRONS \
 	$VOLUMES \

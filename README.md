@@ -44,10 +44,20 @@ Files
 	- colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-up-to <package_name>
 
 ## How To Guides
-#### autowarefoundation official documentation                   
+
+**autowarefoundation official documentation** \
 https://autowarefoundation.github.io/autoware-documentation/main/tutorials/
 
 
-#### ichthus autoware.universe with LGSVL Simulator
+>For visualization, allow the docker user to access the x server\
+> **(host) $ xhost +**
+
+- **Error is occurred  if docker user can't access to x server**\
+`Unable to init server: Could not connect: Connection refused*
+Failed to parse arguments: Cannot open display`
+
+\
+\
+**ichthus autoware.universe with LGSVL Simulator**\
 (container) $ ros2 launch ichthus_launch ichthus_launch_taeho.launch.xml
 (Todo..)

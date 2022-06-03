@@ -25,7 +25,7 @@ Files
 * (host) $ git clone https://github.com/sethut1224/ichthus_autoware_universe.git
 #### 3. Download and Run autowarefoundation's official autoware.universe docker image 
 * (host) $ cd ~/shared_dir/ichthus_autoware_universe
-* (host) $ ./run.sh ghcr.io/autowarefoundation/autoware-universe:latest
+* (host) $ ./run.sh ghcr.io/autowarefoundation/autoware-universe:galactic-latest-cuda
 > (docker run without --rm option, docker container is persistent even if reboot the PC)
 #### Now, you are in the docker container!
 

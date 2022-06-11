@@ -13,3 +13,5 @@ rm -rf /autoware/src/universe/autoware.universe
 
 vcs import < ichthus.repos
 
+source ~/.bashrc
+

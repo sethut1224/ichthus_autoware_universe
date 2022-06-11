@@ -1,0 +1,18 @@
+repositories:
+  /autoware/src/external:
+    type: git
+    url: https://github.com/sethut1224/ichthus_external.git
+    version: master
+  /autoware/src/universe/autoware.universe:
+    type: git
+    url: https://github.com/sethut1224/autoware.universe.git
+    version: main
+  /autoware/src/drivers/ichthus_lidar_driver_ros2:
+    type: git
+    url: https://github.com/eunnseo/ichthus_lidar_driver_ros2.git
+  /autoware/src/drivers/xsens_driver_ros2:
+    type: git
+    url: https://github.com/eunnseo/xsens_driver_ros2.git
+  /autoware/src/drivers/ichthus_control:
+    type: git
+    url: https://github.com/alstjd025/ichthus_control.git

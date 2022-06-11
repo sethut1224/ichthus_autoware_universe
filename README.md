@@ -11,7 +11,7 @@ Files
 |--|--|
 |ichthus.repos  | external repositories that enable ichthus autoware.universe and LGSVL simulator linkage |
 |pub_engage_topic.sh | easy to publish engage topic when run the simple planning simulator|
-|pull.sh| pull latest autoware.universe source code from autowarefoundation repository |
+|pull.sh| pull latest source code from Autoware Foundation and ICHTHUS dependent repositories |
 |run.sh | docker run script for autoware.universe public docker image |
 |setup.sh | setup shell script to setup the ichthus autoware.universe environment for the first time (only once)|
 

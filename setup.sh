@@ -1,6 +1,6 @@
-echo alias cc="'colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select'" >> ~/.bashrc
-echo alias ccu="'colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-up-to'" >> ~/.bashrc
-echo alias cca="'colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release'" >> ~/.bashrc
+echo alias cc="'cd /autoware && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select'" >> ~/.bashrc
+echo alias ccu="'cd /autoware && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-up-to'" >> ~/.bashrc
+echo alias cca="'cd /autoware && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release'" >> ~/.bashrc
 
 pip3 install pyserial
 pip3 install transforms3d

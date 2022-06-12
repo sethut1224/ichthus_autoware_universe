@@ -10,7 +10,7 @@ sudo apt-get install -y can-utils vim gnome-terminal
 
 rm -rf /autoware/src/external/
 rm -rf /autoware/src/universe/autoware.universe
-
+rm -rf /autoware/src/drivers/
 vcs import < ichthus.repos
 
 source ~/.bashrc

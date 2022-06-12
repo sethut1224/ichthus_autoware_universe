@@ -9,7 +9,7 @@ It consist of the shell scripts for easy to installation, easy to pull latest au
 Files
 |file name  | description |
 |--|--|
-|ichthus.repos  | external repositories that are required to run ICHTHUS Autoware, but not included in Autoware.universe|
+|ichthus.repos  | repositories that are required to run ICHTHUS Autoware|
 |pub_engage_topic.sh | easy to publish engage topic when run the simple planning simulator|
 |pull.sh| pull latest source code from Autoware Foundation and ICHTHUS dependent repositories |
 |run.sh | docker run script for autoware.universe public docker image |

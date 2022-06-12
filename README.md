@@ -9,11 +9,11 @@ It consist of the shell scripts for easy to installation, easy to pull latest au
 Files
 |file name  | description |
 |--|--|
-|ichthus.repos  | external repositories that enable ichthus autoware.universe and LGSVL simulator linkage |
+|ichthus.repos  | external repositories that are required to run ICHTHUS Autoware, but not included in Autoware.universe|
 |pub_engage_topic.sh | easy to publish engage topic when run the simple planning simulator|
 |pull.sh| pull latest source code from Autoware Foundation and ICHTHUS dependent repositories |
 |run.sh | docker run script for autoware.universe public docker image |
-|setup.sh | setup shell script to setup the ichthus autoware.universe environment for the first time (only once)|
+|setup.sh | setup shell script to setup the ICHTHUS Autoware environment for the first time (only once)|
 
 ## Environment Setting
 

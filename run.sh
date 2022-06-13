@@ -11,7 +11,7 @@ USER_ID=1000
 VOLUMES="--volume=$XSOCK:$XSOCK:ro	 
 	 --volume=$SHARED_HOST_DIR:$SHARED_DOCK_DIR:rw
 	 --volume=/tmp/.X11-unix:/tmp/.X11-unix:ro
-	 --volume=/media:/media:ro
+	 --volume=/media:/media:rw
 	 --volume=/dev/ttyUSB0:/dev/ttyUSB0:ro"
 	 
 ENVIRONS="--env DISPLAY=${DISPLAY}

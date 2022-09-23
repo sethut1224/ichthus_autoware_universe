@@ -6,7 +6,7 @@ repositories:
   /autoware/src/universe/autoware.universe:
     type: git
     url: https://github.com/sethut1224/autoware.universe.git
-    version: main
+    version: 3880490342b0b9edb505283c66d0eb43e9861b18
   /autoware/src/drivers/ichthus_lidar_driver_ros2:
     type: git
     url: https://github.com/eunnseo/ichthus_lidar_driver_ros2.git

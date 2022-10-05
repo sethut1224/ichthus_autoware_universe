@@ -36,7 +36,7 @@ Files
 
 #### 5. Setup the ichthus autoware.universe
 - (container) $ ./setup.sh (clone external packages)
-- (container) $ ./pull.sh (pull latest source code from autowarefoundation)
+~~(container) $ ./pull.sh (pull latest source code from autowarefoundation)~~
 #### 6. Build the ichthus autoware.universe
 - (container) $ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 - another build command

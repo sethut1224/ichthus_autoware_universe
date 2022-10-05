@@ -13,7 +13,7 @@ rm -rf /autoware/src/universe/autoware.universe
 rm -rf /autoware/src/drivers/
 
 vcs import < ichthus.repos
-. pull.sh
+#. pull.sh
 
 source ~/.bashrc
 
